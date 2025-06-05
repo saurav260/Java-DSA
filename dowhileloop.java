@@ -50,9 +50,10 @@ public class dowhileloop {
         continue;
       }
       System.out.println(i);
+       sc.close();
     }
     while(true);
-   
+  
   }
 }
 
