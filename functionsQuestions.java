@@ -13,17 +13,37 @@ public class functionsQuestions {
         for(int i=1;i<=n;i++){
             f=f*i;
         } 
-        System.out.println(f);
+        
         return f;
     }
+
+    //Binomial Coefficient
+    public static int binoamialCoeff(int n,int r){
+        int fact_n=factorial(n);
+        int fact_r=factorial(r);
+        int fact_nr=factorial(n-r);
+        int CNR=fact_n/(fact_r * fact_nr);
+       
+        return CNR;
+    }
+
 
     public static void main(String []args){
         // int a=3;
         // int b=5;
         // multiply(a, b);
         // multiply(25,30);
-       int n=4;
-       factorial(n);
-       factorial(6);
+
+
+      //int n=5;
+    //    factorial(n);
+    //    factorial(6);
+    
+   // System.out.println(factorial(n));
+
+    
+   System.out.println(binoamialCoeff(5, 2));
+     
+    
     }
 }

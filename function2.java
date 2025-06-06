@@ -15,7 +15,7 @@ public class function2 {
          sc.close();
        calculateSum(a,b); //arguments or actual parameters
 
-       //Swapping of values
+       
        
     }
 
